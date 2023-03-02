@@ -1,0 +1,109 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaliyah Haughton</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <main id="main">
+     <h1 id="title">Aaliyah  Dana Haughton</h1>
+     <p id="description">Gone to soon</p>
+     <div class="frame">
+     <figure id="img-div">
+        <img id="image" class="resize" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Aaliyah_Dana_Haughton-06.jpg" alt="Aaliyah Haughton seen in a black and white side profile close-up photo"/>
+        <figcaption id="img-caption">Photograph of Aaliyah Haughton taken by Mika Väisänen in Berlin May 14th, 2000.</figcaption>
+     </figure>
+     </div>
+     <section id="tribute-info">
+       <h3>Here's a timeline of Aaliyah's life and career accomplishments</h3>
+       <ul>
+         <li><strong>1979</strong> - Born in Brooklyn, New York.</li>
+        <li><strong>1984</strong> - Her family moved to Detroit, Michigan, where she was raised with her brother.</li>
+        <li><strong>1989</strong> - Gained recognition at the age of 10 when she performed on a televison show named Star Search.</li>
+        <li><strong>1991</strong> - At the age of 12, Aaliyah signed to two record labels. Jive Records and Blackground Records.</li>
+      <li><strong>1994</strong> - Her debut album <i>Age ain't Nothing but a Number</i> was released. </li>
+      <li><strong>1996</strong> - Left Jive Records and signed with Alantic Records. Also, releasing her second studio album, <i>One in a Million.</i></li>
+      <li><strong>1997</strong> - Graduated from Detroit High School for the Fine and Performing Arts with a 4.0 GPA.</li>
+    <li><strong>1999</strong> - Landed her first movie role acting in the film, <i>Romeo Must Die.</i></li>
+    <li><strong>2001</strong> - Began working on her second film, <i>Queen of the Damned.</i></li>
+<li><strong>2001</strong> - In August, Aaliyah dies at the age of 22.</li>
+       </ul>
+       <blockquote cite="http://aaliyah.com/quotes/"><p>“Dearest, sweet Aaliyah. I have trouble accepting the fact that you’re gone. So I won’t. It’ll be like we went for awhile without seeing each other. But I can understand why God would have wanted you close to him. Cause you truly were an angel on earth. In my own special way, I love you and miss you.”</p>
+       <cite>..DMX</cite>
+       </blockquote>
+<h4>Read more about Aaliyah on her <a id="tribute-link" href="https://en.wikipedia.org/wiki/Aaliyah" target="_blank">Wikipedia page.</a></h4>
+     </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.resize{
+  width: 600px;
+  height: auto;
+}
+figcaption{
+  text-align: center;
+}
+p, h3, h4 {
+  text-align: center;
+}
+body {
+  font-family: arial;
+  background-color: white;
+  line-height: 2
+}
+#main {
+  background-color: ECEEEE;
+}
+blockquote{
+font-style: italic;
+text-align: right;
+}
+#img-div {
+  background: white;
+  padding: 30px;
+  margin: 50px;
+}
+ul {
+ max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+#title{
+  padding-top: 40px;
+  font-size: 50px;
+  text-align:center;
+}
+#description{
+text-align: center;
+padding: none;
+}
+
+** end of undefined **
+
